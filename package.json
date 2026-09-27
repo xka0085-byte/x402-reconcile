@@ -1,0 +1,16 @@
+{
+  "name": "x402-reconcile",
+  "version": "0.1.0",
+  "description": "Read-only x402 payment challenge inspector: parses HTTP 402 payment documents (scheme, network, asset, amount, payTo) and records response evidence",
+  "type": "module",
+  "bin": { "x402-reconcile": "bin/x402-reconcile.mjs" },
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["x402", "http-402", "payments", "usdc", "solana", "diagnostics", "ai-agents", "stablecoin"],
+  "license": "MIT",
+  "author": { "name": "Eidon", "url": "https://github.com/xka0085-byte" },
+  "repository": { "type": "git", "url": "git+https://github.com/xka0085-byte/x402-reconcile.git" },
+  "homepage": "https://github.com/xka0085-byte/x402-reconcile#readme",
+  "bugs": { "url": "https://github.com/xka0085-byte/x402-reconcile/issues" },
+  "files": ["bin", "README.md", "LICENSE"]
+}
